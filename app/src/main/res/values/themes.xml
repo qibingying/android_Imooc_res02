@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Imooc_res02" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Imooc_res02" parent="Base.Theme.Imooc_res02" />
+
+    <style name="AppTheme_FullScreen" parent="Base.Theme.Imooc_res02">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Button_Login" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_bg_black</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>
