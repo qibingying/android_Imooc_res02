@@ -25,9 +25,7 @@ public class UserBiz {
                 .execute(callBack);
     }
 
-
     public void login(String username, String password, CommonCallback<User> callBack) {
-
         OkHttpUtils
                 .post()
                 .url(Config.baseUrl + "user_login")
@@ -37,5 +35,4 @@ public class UserBiz {
                 .build()
                 .execute(callBack);
     }
-
 }

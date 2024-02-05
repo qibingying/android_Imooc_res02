@@ -64,6 +64,5 @@ public class BaseActivity extends AppCompatActivity {
                 onBackPressed();
             }
         });
-
     }
 }
